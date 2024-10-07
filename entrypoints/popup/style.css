@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  all: unset; /* Reset all properties */
+  text-align: start;
+  border-color: #C1C7D0 !important; 
+  box-shadow: none !important; /* Remove any box shadow */
+}
+
+input:focus {
+  border-color: #C1C7D0 !important; /* Keep the same border color on focus */
+  box-shadow: none !important; /* Remove any box shadow */
+}
+
+input:hover {
+  border-color: #C1C7D0 !important; /* Keep the same border color on hover */
+}
